@@ -2,7 +2,9 @@ const app = Vue.createApp({
     data() { //possibilité de mettre en ES6 data()
         return {
             product: "Games",
-            description: "Il s'agit d'un jeu édité par EA inspiré du film Seigneur des Anneaux"
+            description: "Le Seigneur des anneaux : Le Retour du Roi est un jeu vidéo de 2003 de type beat them all en vue à la troisième personne, développé par EA Redwood Shores et édité par Electronic Arts.",
+            cover: './assets/images/lotrGC.png',
+            url: 'https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Return_of_the_King_(video_game)'
         }
     }
 })
